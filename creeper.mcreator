@@ -96,6 +96,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "creeper_ore"
+    },
+    {
+      "name": "CreeperPickaxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_pickaxe"
     }
   ],
   "variable_elements": [],
@@ -103,6 +112,7 @@
   "language_map": {
     "en_us": {
       "item.creeper.creeper_leather": "Creeper Leather",
+      "item.creeper.creeper_pickaxe": "Creeper Pickaxe",
       "item.creeper.creeper_armor_helmet": "Creeper Armor Helmet",
       "block.creeper.creeper_ore": "Creeper Ore",
       "item.creeper.creeper_armor_leggings": "Creeper Armor Leggings",
