@@ -27,7 +27,7 @@
     "name": "Creeper Ore",
     "specialInfo": [],
     "hardness": 15.0,
-    "resistance": 12.5,
+    "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -35,7 +35,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:CreeperOre"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -92,6 +92,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByExplosion": {
+      "name": "CreeperOreBlockDestroyedByExplosion"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],
