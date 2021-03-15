@@ -1,0 +1,134 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "CreeperLeather",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_leather"
+    },
+    {
+      "name": "BigCreeper",
+      "type": "mob",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_creeper"
+    },
+    {
+      "name": "CreeperBurner",
+      "type": "fuel",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_burner"
+    },
+    {
+      "name": "CreeperIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_ingot"
+    },
+    {
+      "name": "CreeperArmor",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Creeperhelmetrecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeperhelmetrecipe"
+    },
+    {
+      "name": "Creeperchestplate",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeperchestplate"
+    },
+    {
+      "name": "CreeperLeggings",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_leggings"
+    },
+    {
+      "name": "CreeperBoots",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_boots"
+    },
+    {
+      "name": "CreeperOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_ore"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.creeper.creeper_leather": "Creeper Leather",
+      "item.creeper.creeper_armor_helmet": "Creeper Armor Helmet",
+      "block.creeper.creeper_ore": "Creeper Ore",
+      "item.creeper.creeper_armor_leggings": "Creeper Armor Leggings",
+      "entity.creeper.big_creeper": "Mutant Creeper Mini",
+      "item.creeper.creeper_armor_boots": "Creeper Armor Boots",
+      "item.creeper.creeper_ingot": "Creeper Ingot",
+      "item.creeper.big_creeper_spawn_egg": "Mutant Creeper Mini Spawn Egg",
+      "item.creeper.creeper_armor_chestplate": "Creeper Armor Body"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "creeper",
+    "modName": "Creeper+",
+    "version": "1.0.0",
+    "author": "BenGFly, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.creeper",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

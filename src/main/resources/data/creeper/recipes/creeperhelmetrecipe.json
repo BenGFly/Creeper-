@@ -1,0 +1,29 @@
+{
+  "group": "creeper",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "creeper:creeper_ingot"
+    },
+    "1": {
+      "item": "creeper:creeper_ingot"
+    },
+    "2": {
+      "item": "creeper:creeper_ingot"
+    },
+    "3": {
+      "item": "creeper:creeper_ingot"
+    },
+    "5": {
+      "item": "creeper:creeper_ingot"
+    }
+  },
+  "result": {
+    "item": "creeper:creeper_armor_helmet",
+    "count": 1
+  }
+}

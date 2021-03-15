@@ -1,0 +1,57 @@
+{
+  "_fv": 13,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "creeper_helmet",
+    "enableBody": true,
+    "textureBody": "creeper_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "creeper_leggings",
+    "enableBoots": true,
+    "textureBoots": "creeper_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "creeper_armor",
+    "helmetName": "Creeper Armor Helmet",
+    "bodyName": "Creeper Armor Body",
+    "leggingsName": "Creeper Armor Leggings",
+    "bootsName": "Creeper Armor Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": "entity.creeper.hurt"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CreeperIngot"
+      }
+    ]
+  }
+}

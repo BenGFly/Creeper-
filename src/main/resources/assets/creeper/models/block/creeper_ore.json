@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "creeper:blocks/creeper_ore",
+    "up": "creeper:blocks/creeper_ore",
+    "north": "creeper:blocks/creeper_ore",
+    "east": "creeper:blocks/creeper_ore",
+    "south": "creeper:blocks/creeper_ore",
+    "west": "creeper:blocks/creeper_ore",
+    "particle": "creeper:blocks/creeper_ore"
+  }
+}
