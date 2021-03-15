@@ -27,7 +27,6 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.creeper.item.CreeperIngotItem;
 import net.mcreator.creeper.CreeperModElements;
 
 import java.util.Random;
@@ -60,7 +59,7 @@ public class CreeperOreBlock extends CreeperModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(CreeperIngotItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(CreeperOreBlock.block, (int) (1)));
 		}
 	}
 	@Override
