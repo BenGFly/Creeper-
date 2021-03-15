@@ -105,6 +105,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "creeper_pickaxe"
+    },
+    {
+      "name": "CreeperBlock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_block"
     }
   ],
   "variable_elements": [],
@@ -115,6 +124,7 @@
       "item.creeper.creeper_pickaxe": "Creeper Pickaxe",
       "item.creeper.creeper_armor_helmet": "Creeper Armor Helmet",
       "block.creeper.creeper_ore": "Creeper Ore",
+      "block.creeper.creeper_block": "Creeper Block",
       "item.creeper.creeper_armor_leggings": "Creeper Armor Leggings",
       "entity.creeper.big_creeper": "Mini Mutant Creeper",
       "item.creeper.creeper_armor_boots": "Creeper Armor Boots",

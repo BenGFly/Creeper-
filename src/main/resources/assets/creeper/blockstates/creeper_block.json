@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "creeper:block/creeper_block"
+    }
+  }
+}
