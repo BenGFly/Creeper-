@@ -36,7 +36,7 @@ public class CreeperPickaxeItem extends CreeperModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantability() {
