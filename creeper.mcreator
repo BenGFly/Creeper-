@@ -92,7 +92,7 @@
       "name": "CreeperOre",
       "type": "block",
       "sortid": 10,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "creeper_ore"
@@ -141,23 +141,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "creeper_pickaxe_recipe"
+    },
+    {
+      "name": "Creeperleatherarmor",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeperleatherarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.creeper.creeper_leather": "Creeper Leather",
-      "item.creeper.creeper_pickaxe": "Creeper Pickaxe",
-      "item.creeper.creeper_armor_helmet": "Creeper Armor Helmet",
       "block.creeper.creeper_ore": "Creeper Ore",
-      "block.creeper.creeper_block": "Creeper Block",
-      "item.creeper.creeper_armor_leggings": "Creeper Armor Leggings",
+      "item.creeper.creeperleatherarmor_boots": "Creeperleatherarmor Boots",
       "entity.creeper.big_creeper": "Mini Mutant Creeper",
       "item.creeper.creeper_armor_boots": "Creeper Armor Boots",
       "item.creeper.creeper_ingot": "Creeper Ingot",
-      "item.creeper.big_creeper_spawn_egg": "Mini Mutant Creeper Spawn Egg",
-      "item.creeper.creeper_armor_chestplate": "Creeper Armor Body"
+      "item.creeper.creeper_armor_chestplate": "Creeper Armor Body",
+      "item.creeper.creeperleatherarmor_chestplate": "Creeperleatherarmor Body",
+      "item.creeper.creeperleatherarmor_helmet": "Creeperleatherarmor Helmet",
+      "item.creeper.creeper_leather": "Creeper Leather",
+      "item.creeper.creeper_pickaxe": "Creeper Pickaxe",
+      "item.creeper.creeper_armor_helmet": "Creeper Armor Helmet",
+      "block.creeper.creeper_block": "Creeper Block",
+      "item.creeper.creeper_armor_leggings": "Creeper Armor Leggings",
+      "item.creeper.creeperleatherarmor_leggings": "Creeperleatherarmor Leggings",
+      "item.creeper.big_creeper_spawn_egg": "Mini Mutant Creeper Spawn Egg"
     }
   },
   "workspaceSettings": {
