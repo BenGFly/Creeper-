@@ -92,9 +92,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByExplosion": {
-      "name": "CreeperOreBlockDestroyedByExplosion"
-    },
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -105,8 +102,8 @@
       }
     ],
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 8,
+    "frequencyOnChunk": 5,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 24
+    "maxGenerateHeight": 12
   }
 }

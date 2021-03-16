@@ -15,9 +15,7 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
-import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
-import net.minecraft.world.Explosion;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -29,13 +27,10 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.creeper.procedures.CreeperOreBlockDestroyedByExplosionProcedure;
 import net.mcreator.creeper.CreeperModElements;
 
 import java.util.Random;
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 import java.util.Collections;
 
 @CreeperModElements.ModElement.Tag
@@ -66,22 +61,6 @@ public class CreeperOreBlock extends CreeperModElements.ModElement {
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
-
-		@Override
-		public void onExplosionDestroy(World world, BlockPos pos, Explosion e) {
-			super.onExplosionDestroy(world, pos, e);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				CreeperOreBlockDestroyedByExplosionProcedure.executeProcedure($_dependencies);
-			}
-		}
 	}
 	@Override
 	public void init(FMLCommonSetupEvent event) {
@@ -102,7 +81,7 @@ public class CreeperOreBlock extends CreeperModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 8)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 1, 1, 24))));
+			}), block.getDefaultState(), 5)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 1, 1, 12))));
 		}
 	}
 }

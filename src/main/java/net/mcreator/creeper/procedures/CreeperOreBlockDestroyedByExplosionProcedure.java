@@ -1,7 +1,6 @@
 package net.mcreator.creeper.procedures;
 
 import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.item.ItemEntity;
 
@@ -41,7 +40,6 @@ public class CreeperOreBlockDestroyedByExplosionProcedure extends CreeperModElem
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-		world.destroyBlock(new BlockPos((int) x, (int) y, (int) z), false);
 		if (!world.getWorld().isRemote) {
 			ItemEntity entityToSpawn = new ItemEntity(world.getWorld(), x, y, z, new ItemStack(CreeperIngotItem.block, (int) (1)));
 			entityToSpawn.setPickupDelay((int) 10);
