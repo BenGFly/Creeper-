@@ -92,7 +92,7 @@
       "name": "CreeperOre",
       "type": "block",
       "sortid": 10,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "creeper_ore"
@@ -114,6 +114,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "creeper_block"
+    },
+    {
+      "name": "CreeperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_pickaxe_recipe"
     }
   ],
   "variable_elements": [],
