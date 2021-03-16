@@ -92,7 +92,7 @@
       "name": "CreeperOre",
       "type": "block",
       "sortid": 10,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "creeper_ore"
@@ -114,6 +114,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "creeper_block"
+    },
+    {
+      "name": "CreeperBlockRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_block_recipe"
+    },
+    {
+      "name": "CreeperBlocktocreeperingotrecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_blocktocreeperingotrecipe"
     }
   ],
   "variable_elements": [],

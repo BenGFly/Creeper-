@@ -1,0 +1,13 @@
+{
+  "group": "creeper",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "creeper:creeper_block"
+    }
+  ],
+  "result": {
+    "item": "creeper:creeper_ingot",
+    "count": 9
+  }
+}
