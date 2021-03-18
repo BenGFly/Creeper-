@@ -156,6 +156,42 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "CreeperLeatherlegginsRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_leatherleggins_recipe"
+    },
+    {
+      "name": "CreeperLeatherHelmetRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_leather_helmet_recipe"
+    },
+    {
+      "name": "CreeperLeatherChestplateRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_leather_chestplate_recipe"
+    },
+    {
+      "name": "CreeperLeatherBootsRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_leather_boots_recipe"
     }
   ],
   "variable_elements": [],

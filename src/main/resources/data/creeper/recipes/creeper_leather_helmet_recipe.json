@@ -1,0 +1,29 @@
+{
+  "group": "creeper",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "creeper:creeper_leather"
+    },
+    "1": {
+      "item": "creeper:creeper_leather"
+    },
+    "2": {
+      "item": "creeper:creeper_leather"
+    },
+    "3": {
+      "item": "creeper:creeper_leather"
+    },
+    "5": {
+      "item": "creeper:creeper_leather"
+    }
+  },
+  "result": {
+    "item": "creeper:creeperleatherarmor_helmet",
+    "count": 1
+  }
+}
