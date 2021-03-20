@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Mini Mutant Creeper",
     "mobLabel": "",
-    "mobModelName": "ModelCreeperMutant",
-    "mobModelTexture": "creepermutantmini.png",
+    "mobModelName": "ModelMutantCreeper",
+    "mobModelTexture": "newtexture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.7999999999999999,
     "modelHeight": 1.7999999999999998,
