@@ -5,7 +5,7 @@
     "mobName": "Mutant Creeper",
     "mobLabel": "",
     "mobModelName": "ModelMutantCreeper",
-    "mobModelTexture": "newtexture.png",
+    "mobModelTexture": "mutantcreeper.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.7999999999999999,
     "modelHeight": 1.7999999999999998,

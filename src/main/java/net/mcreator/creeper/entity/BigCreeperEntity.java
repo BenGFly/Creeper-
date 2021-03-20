@@ -81,7 +81,7 @@ public class BigCreeperEntity extends CreeperModElements.ModElement {
 			return new MobRenderer(renderManager, new ModelMutantCreeper(), 0.5f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("creeper:textures/newtexture.png");
+					return new ResourceLocation("creeper:textures/mutantcreeper.png");
 				}
 			};
 		});
@@ -179,7 +179,10 @@ public class BigCreeperEntity extends CreeperModElements.ModElement {
 		private final ModelRenderer leg3;
 		private final ModelRenderer leg4;
 		private final ModelRenderer head;
+		private final ModelRenderer cube_r1;
 		private final ModelRenderer head2;
+		private final ModelRenderer cube_r2;
+		private final ModelRenderer cube_r3;
 		public ModelMutantCreeper() {
 			textureWidth = 64;
 			textureHeight = 64;
@@ -207,10 +210,28 @@ public class BigCreeperEntity extends CreeperModElements.ModElement {
 			head.setRotationPoint(-9.0F, 22.0F, 0.0F);
 			setRotationAngle(head, 0.0F, 0.0F, 0.5236F);
 			head.setTextureOffset(0, 16).addBox(2.0F, -27.0F, -4.0F, 8.0F, 8.0F, 8.0F, 0.0F, false);
+			cube_r1 = new ModelRenderer(this);
+			cube_r1.setRotationPoint(9.0F, 2.0F, 0.0F);
+			head.addChild(cube_r1);
+			setRotationAngle(cube_r1, 0.0F, 0.0F, 0.5672F);
+			cube_r1.setTextureOffset(0, 0).addBox(-14.0F, -16.0F, 0.0F, 1.0F, 1.0F, 1.0F, 0.0F, false);
+			cube_r1.setTextureOffset(0, 0).addBox(-14.0F, -17.0F, 0.0F, 1.0F, 1.0F, 1.0F, 0.0F, false);
+			cube_r1.setTextureOffset(0, 0).addBox(-14.0F, -15.0F, 0.0F, 1.0F, 1.0F, 1.0F, 0.0F, false);
 			head2 = new ModelRenderer(this);
 			head2.setRotationPoint(-4.0F, 30.0F, 0.0F);
 			setRotationAngle(head2, 0.0F, 0.0F, -0.5236F);
 			head2.setTextureOffset(0, 0).addBox(6.0F, -27.0F, -4.0F, 8.0F, 8.0F, 8.0F, 0.0F, false);
+			head2.setTextureOffset(0, 0).addBox(8.0F, -19.0F, 0.0F, 1.0F, 1.0F, 1.0F, 0.0F, false);
+			cube_r2 = new ModelRenderer(this);
+			cube_r2.setRotationPoint(4.0F, -6.0F, 0.0F);
+			head2.addChild(cube_r2);
+			setRotationAngle(cube_r2, 0.0F, 0.0F, -0.2618F);
+			cube_r2.setTextureOffset(0, 0).addBox(7.0F, -11.0F, 0.0F, 1.0F, 2.0F, 1.0F, 0.0F, false);
+			cube_r3 = new ModelRenderer(this);
+			cube_r3.setRotationPoint(4.0F, -6.0F, 0.0F);
+			head2.addChild(cube_r3);
+			setRotationAngle(cube_r3, 0.0F, 0.0F, -0.3491F);
+			cube_r3.setTextureOffset(0, 0).addBox(7.75F, -9.25F, 0.0F, 1.0F, 2.0F, 1.0F, 0.0F, false);
 		}
 
 		@Override
