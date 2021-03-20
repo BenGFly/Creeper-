@@ -1,7 +1,7 @@
 {
   "block.creeper.creeper_ore": "Creeper Ore",
   "item.creeper.creeperleatherarmor_boots": "Creeper Leather Boots",
-  "entity.creeper.big_creeper": "Mini Mutant Creeper",
+  "entity.creeper.big_creeper": "Mutant Creeper",
   "item.creeper.creeper_armor_boots": "Creeper Armor Boots",
   "item.creeper.creeper_ingot": "Creeper Ingot",
   "item.creeper.creeper_armor_chestplate": "Creeper Armor Body",
@@ -13,5 +13,5 @@
   "block.creeper.creeper_block": "Creeper Block",
   "item.creeper.creeper_armor_leggings": "Creeper Armor Leggings",
   "item.creeper.creeperleatherarmor_leggings": "Creeper Leather Leggings",
-  "item.creeper.big_creeper_spawn_egg": "Mini Mutant Creeper Spawn Egg"
+  "item.creeper.big_creeper_spawn_egg": "Mutant Creeper Spawn Egg"
 }
